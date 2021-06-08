@@ -1,0 +1,490 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	line-height: 24px;
+	color: #444
+}
+
+.hero-area {
+
+	padding: 100px 0
+}
+
+.container {
+	width: 1260px;
+	margin: 0 auto;
+	position: relative
+}
+
+.home-area-1f {
+	width: 900px;
+	height: 400px;
+	background: #1ce3bd;
+	position: relative;
+	margin: 0 auto;
+	border-right: 6px solid #00efc2;
+	border-left: 6px solid #00efc2;
+	margin-top: 300px
+}
+
+.dore-area-1f {
+	width: 150px;
+	height: 250px;
+	background: url(../img/1stf.wd1.jpg)no-repeat scroll 0 0 /cover;
+	position: absolute;
+	bottom: 10px;
+	right: 40%;
+	perspective: 500px;
+	border: 10px solid #8E4830;
+	border-bottom: 5px solid #000;
+
+}
+
+.dore-area-1f img {
+	width: 100%;
+	height: 100%;
+	transform: perspective(700px);
+	transform-origin: right;
+	transition: all 1.0s ease 0s;
+}
+
+.dore-area-1f img:hover {
+	transform: rotateY(-90deg);
+
+}
+
+.window-area-1f {
+	height: 150px;
+	width: 175px;
+	background: url(../img/1stf-w1.jpg)no-repeat scroll 0 0/cover;
+	position: absolute;
+	right: 50px;
+	bottom: 25%;
+	display: flex;
+	border: 10px solid #ddd;
+}
+
+.window-area-2f {
+	height: 150px;
+	width: 175px;
+	background: url(../img/1stf.dr.jpg) no-repeat scroll 0 0/cover;
+	position: absolute;
+	bottom: 25%;
+	left: 50px;
+	display: flex;
+	border: 10px solid #ddd;
+}
+
+.ac-1f img {
+	width: 125px;
+	height: 80px;
+	top: 5px;
+	right: 38px;
+	position: absolute;
+}
+
+.baranda-area img {
+	width: 100%;
+	height: 140px;
+}
+
+.baranda-area {
+	position: absolute;
+	bottom: -4%;
+}
+
+.chad-design {
+	width: 500px;
+	height: 500px;
+	background: #00FFAD;
+	position: absolute;
+	transform: rotate(45deg);
+	top: -70%;
+	left: 21%;
+	z-index: -1;
+}
+
+.chad-design-1 {
+	width: 400px;
+	height: 400px;
+	background: #fff;
+	position: absolute;
+	transform: rotate(45deg);
+	top: -57%;
+	left: 27%;
+	z-index: -1;
+}
+
+.chad-design-2 {
+	width: 300px;
+	height: 300px;
+	background: #1CE3BD;
+	position: absolute;
+	transform: rotate(45deg);
+	top: -45%;
+	left: 33%;
+	z-index: -1;
+}
+
+.home-name p {
+	color: #444;
+	position: absolute;
+	top: -40%;
+	left: 42%;
+	font-size: 20px;
+	background: #fff;
+	padding: 50px 20px;
+	border-radius: 50%;
+}
+
+.chad .tob-1 {
+	width: 100px;
+	height: 150px;
+	top: -150px;
+	position: absolute;
+}
+
+.chad .tob-2 {
+	width: 100px;
+	height: 150px;
+	top: -150px;
+	position: absolute;
+	right: 0%;
+}
+
+/*home area g-f*/
+.home-area {
+	width: 900px;
+	height: 400px;
+	background: #1ce3bd;
+	position: relative;
+	margin: 0 auto;
+	top: 30px;
+	border-right: 6px solid #00efc2;
+	border-left: 6px solid #00efc2;
+	margin-bottom: 200px
+}
+
+.dore-area {
+	width: 150px;
+	height: 250px;
+	background: url(../img/dddd.jpeg)no-repeat scroll 0 0 /cover;
+	position: absolute;
+	bottom: 10px;
+	right: 40%;
+	perspective: 500px;
+	border: 10px solid #8E4830;
+	border-bottom: 5px solid #000;
+
+}
+
+.dore-area img {
+	width: 100%;
+	height: 100%;
+	transform: perspective(700px);
+	transform-origin: right;
+	transition: all 1.0s ease 0s;
+}
+
+.dore-area img:hover {
+	transform: rotateY(-90deg);
+
+}
+
+.dore-carness {
+	width: 200px;
+	height: 20px;
+	background: #00ffad;
+	top: 25%;
+	position: absolute;
+	margin-left: 39%;
+}
+
+.ac img {
+	width: 125px;
+	height: 80px;
+	top: 5px;
+	left: 38px;
+	position: absolute;
+}
+
+.window-area-1 {
+	height: 150px;
+	width: 175px;
+	background: url(../img/droingroom.jpeg)no-repeat scroll 0 0/cover;
+	position: absolute;
+	right: 50px;
+	bottom: 25%;
+	display: flex;
+	border: 10px solid #ddd;
+}
+
+.window-area-2 {
+	height: 150px;
+	width: 175px;
+	background: url(../img/driongroom-d.jpeg) no-repeat scroll 0 0/cover;
+	position: absolute;
+	bottom: 25%;
+	left: 50px;
+	display: flex;
+	border: 10px solid #ddd;
+}
+
+.carness {
+	width: 220px;
+	height: 20px;
+	background: #00ffad;
+	top: -35px;
+	position: absolute;
+	margin-left: -22px;
+}
+
+.palla-left {
+	height: 94%;
+	width: 50%;
+	background: #547CAA;
+	border: 5px solid #fff;
+	transition: all 1.0s ease 0s
+}
+
+.palla-right {
+	width: 50%;
+	height: 94%;
+	background: #547CAA;
+	border: 5px solid #fff;
+	transition: all 1.0s ease 0s
+}
+
+.palla-lock-1 {
+	width: 5px;
+	height: 20px;
+	background: #444;
+	top: 65px;
+	left: 5px;
+	position: absolute;
+}
+
+.palla-lock-2 {
+	width: 5px;
+	height: 20px;
+	background: #444;
+	top: 65px;
+	right: 5px;
+	position: absolute;
+}
+
+.palla-left:hover {
+	position: relative;
+	transform: translateX(90px)
+}
+
+.palla-right:hover {
+	position: relative;
+	transform: translateX(-90px)
+}
+
+.chad {
+	position: absolute;
+	background: #00ffad;
+	width: 1000px;
+	height: 30px;
+	top: -30px;
+	margin-left: -50px;
+}
+
+
+
+.bar-1 {
+	width: 935px;
+	height: 50px;
+	background: #000;
+	top: 100%;
+	left: -2%;
+	position: absolute;
+	z-index: 1;
+}
+
+.sere-area {
+	position: absolute;
+	bottom: -28%;
+	left: 28%;
+	z-index: 1;
+	bottom: -21%
+}
+
+.sere-1 {
+	width: 300px;
+	height: 25px;
+	background: #8A857F;
+	margin: 0 auto;
+}
+
+.sere-2 {
+	width: 350px;
+	height: 25px;
+	background: #393937;
+	margin: 0 auto;
+}
+
+.sere-3 {
+	width: 400px;
+	height: 25px;
+	background: #999594;
+	margin: 0 auto;
+}
+
+.rod-h img {
+	width: 41%;
+	height: 500px;
+	position: absolute;
+	transform: rotate(90deg);
+	top: -125%;
+	right: 38%;
+}
+
+img.gras-1 {
+	width: 1790px;
+	height: 269px;
+	position: absolute;
+	top: 92%;
+	left: -55%;
+}
+
+.car-area img {
+	width: 270px;
+	height: 210px;
+	position: absolute;
+	top: 75%;
+	z-index: 1;
+}
+
+.byeck-area img {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 70%;
+	right: 0%;
+	z-index: 1;
+}
+
+.sweiming-pul-area .swemingpul {
+	width: 50%;
+	height: 125px;
+	position: absolute;
+	bottom: -12%;
+	left: -50%;
+}
+
+.sweiming-pul-area .chear-area {
+	width: 100px;
+	height: 130px;
+	position: absolute;
+	bottom: 12%;
+	left: -12%;
+	transform: rotatey(180deg);
+}
+
+.tree-area .tree-1 {
+	width: 175px;
+	height: 325px;
+	position: absolute;
+	left: -55%;
+	bottom: -30%;
+}
+
+.tree-area .tree-2 {
+	width: 175px;
+	height: 325px;
+	position: absolute;
+	right: -40%;
+	bottom: -30%;
+	z-index: 1;
+}
+
+.tree-area .tree-3 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	bottom: 85px;
+	left: -43%;
+	z-index: -1;
+}
+
+.tree-area .tree-4 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	bottom: -10px;
+	right: -45%;
+}
+
+.geat-area .meain-geat {
+	width: 100%;
+	height: 420px;
+	position: absolute;
+	bottom: -34%;
+	z-index: 1;
+	border-bottom: 5px solid;
+	perspective: 500px;
+}
+
+.geat-area .geat-1 {
+	width: 240px;
+	height: 420px;
+	position: absolute;
+	bottom: -34%;
+	z-index: 1;
+	left: 28%;
+	transform: perspective(700px);
+	transform-origin: left;
+	transition: all 2.0s ease 0s;
+}
+
+.geat-area:hover .geat-1 {
+	transform: translateX(-240px)
+}
+
+.geat-area .geat-2 {
+	width: 240px;
+	height: 420px;
+	position: absolute;
+	bottom: -34%;
+	z-index: 1;
+	right: 34%;
+	transition: all 2.0s ease 0s;
+	transform: perspective(700px);
+	transform-origin: right;
+}
+
+.geat-area:hover .geat-2 {
+	transform: translateX(240px)
+}
+
+.geat-area .geat-site {
+	width: 315px;
+	height: 355px;
+	position: absolute;
+	bottom: -34%;
+	left: -25%;
+	border-bottom: 5px solid;
+}
+
+.geat-area .geat-site-2 {
+	width: 225px;
+	height: 335px;
+	position: absolute;
+	bottom: -34%;
+	right: -18%;
+	border-bottom: 5px solid;
+}
+
+.road-area img {
+	width: 100%;
+	height: 200px;
+	top: 75px;
+	position: relative;
+}
